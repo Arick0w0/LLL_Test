@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:seat_booking/features/seat/data/datasources/seat_api.dart';
-import 'package:seat_booking/features/seat/data/models/seat_model.dart';
 import 'package:seat_booking/features/seat/data/repositories/seat_repository.dart';
 import 'package:seat_booking/features/seat/domain/usecases/get_seats.dart';
 import 'package:seat_booking/features/seat/presentation/bloc/seat_bloc.dart';

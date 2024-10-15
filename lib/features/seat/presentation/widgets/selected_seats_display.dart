@@ -15,9 +15,7 @@ class SelectedSeatsDisplay extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const Text('ບ່ອນນັ່ງ',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-            )),
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         Wrap(
           spacing: 4.0,
           children: selectedSeats.map((seatNumber) {

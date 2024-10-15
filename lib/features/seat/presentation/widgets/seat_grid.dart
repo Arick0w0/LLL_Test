@@ -43,7 +43,7 @@ class SeatGrid extends StatelessWidget {
               return Expanded(
                 child: Center(
                     child: Text('$index',
-                        style: TextStyle(fontWeight: FontWeight.bold))),
+                        style: const TextStyle(fontWeight: FontWeight.bold))),
               );
             }),
           ),
